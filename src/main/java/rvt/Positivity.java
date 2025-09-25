@@ -2,6 +2,12 @@ package rvt;
 
 public class Positivity {
 
+    public enum Result {
+        POSITIVE,
+        NEGATIVE,
+        ZERO
+    }
+
     public static void main(String[] args) {
         // Example usage
         System.out.println(byOperator(5));   // POSITIVE
@@ -16,11 +22,5 @@ public class Positivity {
             return Result.NEGATIVE;
         }
         return Result.ZERO;
-    }
-
-    public enum Result {
-        POSITIVE,
-        NEGATIVE,
-        ZERO
     }
 }
