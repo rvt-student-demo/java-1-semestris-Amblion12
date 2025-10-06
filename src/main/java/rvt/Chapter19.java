@@ -11,14 +11,14 @@ public class Chapter19 {
         int x = 0;
         while (x < 5) {
             System.out.println(x);
-            x++;
+            x += 2;
         }
     }
 
     public static void ex2() {
         int x = 5;
         while (x > 0) {
-            System.out.println(x);
+            System.out.print(x);
             x--;
         }
     }
