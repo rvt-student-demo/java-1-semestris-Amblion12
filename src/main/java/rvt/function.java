@@ -2,17 +2,11 @@ package rvt;
 
 public class function {
     public static void main(String[] args) {
-
-        System.out.println("AAA");
-        greet();
-
-        System.out.println("Looks great");
-        greet();
-        greet();
-        greet();
+        printUntilNumbers(10);
     }
-
-    public static void greet() {
-        System.out.println("BBBB");
+    public static void printUntilNumbers(int n) {
+        for (int i = 0; i <= n; i +=1) {
+            System.out.println(i);
+        }
     }
 }
