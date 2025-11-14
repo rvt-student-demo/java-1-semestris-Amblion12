@@ -36,9 +36,9 @@ public class Chapter60 {
         + twice[0] + " " + twice[1] + " " + twice[2] + " " + twice[3] );
         }
     public static void ex3() {
-        int[] valA   = { 13, -22,  82,  17}; 
-        int[] valB   = {-12,  24, -79, -13};
-        int[] sum    = {  0,   0,   0,   0};
+        int[] valA = { 13, -22,  82,  17}; 
+        int[] valB = {-12,  24, -79, -13};
+        int[] sum  = {  0,   0,   0,   0};
     
         // Add values from corresponding cells of valA and valB
         // and put the result in the corresponding cell of sum.
