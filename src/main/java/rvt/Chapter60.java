@@ -22,7 +22,7 @@ public class Chapter60 {
     }
     public static void ex2() {
         int[] val = {13, -4, 82, 17}; 
-        int[] twice = ;
+        int[] twice = {val[0] * 2, val[1] * 2, val[2] * 2, val[3] * 2};
     
         System.out.println( "Original Array: " 
             + val[0] + " " + val[1] + " " + val[2] + " " + val[3] );
